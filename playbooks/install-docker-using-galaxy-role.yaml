@@ -1,0 +1,8 @@
+# command ==> ansible-galaxy role install bsmeding.docker
+# downloaded role location ==> /home/vrushali/.ansible/roles/bsmeding.docker
+
+---
+- hosts: all
+  become: true
+  roles:
+    - bsmeding.docker
